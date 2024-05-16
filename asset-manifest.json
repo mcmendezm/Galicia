@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Galicia/static/css/main.33619768.css",
-    "main.js": "/Galicia/static/js/main.288abdad.js",
+    "main.js": "/Galicia/static/js/main.d161b35d.js",
     "static/js/453.3341e851.chunk.js": "/Galicia/static/js/453.3341e851.chunk.js",
     "index.html": "/Galicia/index.html",
     "main.33619768.css.map": "/Galicia/static/css/main.33619768.css.map",
-    "main.288abdad.js.map": "/Galicia/static/js/main.288abdad.js.map",
+    "main.d161b35d.js.map": "/Galicia/static/js/main.d161b35d.js.map",
     "453.3341e851.chunk.js.map": "/Galicia/static/js/453.3341e851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33619768.css",
-    "static/js/main.288abdad.js"
+    "static/js/main.d161b35d.js"
   ]
 }
