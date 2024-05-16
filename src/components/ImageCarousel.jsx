@@ -28,7 +28,7 @@ class ImageCarousel extends Component {
     return (
       <div style={{ display: "flex", justifyContent: "center", width:"50%"}}>
         <img
-          src={images[currentImageIndex]}
+          src={`${process.env.PUBLIC_URL}${images[currentImageIndex]}`}
           alt="carousel"
           style={{ maxWidth: "100%", maxHeight: "400px" }}
         />

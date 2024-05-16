@@ -10,7 +10,7 @@ class Logo extends Component{
     render() {
         return (
             <div>
-                <img style={styles.logo} src="/img/logo.png" alt="Logo de herencia la galicia" /> 
+                <img style={styles.logo} src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="Logo de herencia la galicia" /> 
             </div>
         )
     }

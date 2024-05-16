@@ -29,7 +29,7 @@ class DetallesCarro extends Component{
         return (
             <div style={styles.detallesCarro}>
                 <ul style={styles.ul }>
-                    {carro.map(x => <li style={styles.producto } key={x.name}><img src={x.img} alt={x.name} width='50' height='32' />{x.name}<span>{x.cantidad }</span></li>)}
+                    {carro.map(x => <li style={styles.producto } key={x.name}><img src={`${process.env.PUBLIC_URL}${x.img}`}  alt={x.name} width='50' height='32' />{x.name}<span>{x.cantidad }</span></li>)}
                 </ul>
             </div>
         )

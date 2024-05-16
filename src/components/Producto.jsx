@@ -49,7 +49,7 @@ class Producto extends Component {
         onMouseEnter={this.toggleHover}
         onMouseLeave={this.toggleHover}
       >
-        <img style={styles.img} src={producto.img} alt={producto.name} />
+        <img style={styles.img} src={`${process.env.PUBLIC_URL}${producto.img}`} alt={producto.name} />
         <h3>{producto.name}</h3>
         <p>Precio: ${producto.price}</p>
         <Button onClick={() => agregarAlCarro(producto)}>Agregar al carro</Button>
