@@ -8,15 +8,14 @@ import Container from './components/Container'
 import Footer from './components/Footer'
 import ImageCarousel from './components/ImageCarousel'
 import History from './components/History'
-import Ubicacion from './components/Ubicacion'
 
 class App extends Component{
   state = {
     productos: [
-      { name:'Café Molido 250g', price:15000, img:'/img/cafe250.jpeg'},
-      { name: 'Café Molido 500g', price: 30000, img: '/img/cafe500.jpeg' },
-      { name: 'Café en Grano 250g', price: 15000, img: '/img/cafe250.jpeg' },
-      { name:'Café en Grano 500g', price:30000, img:'/img/cafe500.jpeg'},
+      { name:'Café Molido 250g', price:15000, img:'/img/CafeDe250.jpeg'},
+      { name: 'Café Molido 500g', price: 30000, img: '/img/CafeDe500.jpeg' },
+      { name: 'Café en Grano 250g', price: 15000, img: '/img/CafeDe250.jpeg' },
+      { name:'Café en Grano 500g', price:30000, img:'/img/CafeDe500.jpeg'},
     ],
     carro: [],
     esCarroVisible:false,
