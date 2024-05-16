@@ -43,7 +43,7 @@ class Carro extends Component{
                     onMouseEnter={(e) => e.target.style.backgroundColor = '#e84328'} 
                     onMouseLeave={(e) => e.target.style.backgroundColor = '#004e18'}
                 >
-                <img style={styles.carro} src="/img/icons8-carrito-de-compras-50.png" alt="Carrito de compras" />Comprar</button>
+                <img style={styles.carro} src={`${process.env.PUBLIC_URL}/img/icons8-carrito-de-compras-50.png`} alt="Carrito de compras" />Comprar</button>
                 { esCarroVisible ? <DetallesCarro carro={ carro} />:null }
             </div>
         )
